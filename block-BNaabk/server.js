@@ -9,6 +9,6 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
   res.send('About page')
 })
-app.listen(300,()=>{
+app.listen(3000,()=>{
   console.log('server is listening on port 3k')
 })

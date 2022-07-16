@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "start": "node server.js"
   },
   "author": "AltCampus",
   "license": "GNU GPL V3",
@@ -12,5 +13,6 @@
     "jest": "^26.0.1"
   },
   "keywords": [],
+  "devDependencies": {},
   "description": ""
 }
